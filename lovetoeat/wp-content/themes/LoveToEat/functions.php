@@ -8,6 +8,8 @@ if(!defined('LOVETOEAT_THEME_URL')){
     define('LOVETOEAT_THEME_URL', WP_CONTENT_URL.'/'.'themes/'.get_template().'/');
 }
 
+require_once LOVETOEAT_THEME_DIR.'libs/posttypes.php';
+
 
 
 
